@@ -1,0 +1,29 @@
+# --- Visual Studio Junk ---
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*.suo
+*.userosscache
+*.sln.docstates
+*.obj
+*.ilk
+*.tlog
+*.lastbuildstate
+*.idb
+
+# --- NuGet Packages (SDL2 itp.) ---
+packages/
+
+# --- Temporary/Backup Files ---
+*.tmp
+*.bak
+*.swp
