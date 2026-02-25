@@ -35,9 +35,11 @@ The original 4x4 hex keypad of the Chip-8 has been mapped to the modern QWERTY l
 *Press **ESC** to exit the emulator.*
 
 ## Project Structure
-- `src/` - Implementation files (`.cpp`)
-- `include/` - Header files (`.h`)
+- `emulator/src/` - Implementation files (`.cpp`)
+- `emulator/include/` - Header files (`.h`)
 - `roms/` - Sample ROMs for testing (e.g., Pong, Tetris, Invaders)
+- `docs/` - Project documentation and media assets
+  - `demo.gif` - Animated demonstration of the emulator in action
 - `emulator.sln` - Visual Studio Solution file
 
 ## Build and Run
