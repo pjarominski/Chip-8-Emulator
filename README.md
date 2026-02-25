@@ -2,6 +2,10 @@
 
 A high-performance Chip-8 interpreter written in C++ using the SDL2 library. This project was developed as a portfolio piece to demonstrate low-level system emulation, memory management, and clean object-oriented design.
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Chip-8 Emulator Demo" width="600">
+</p>
+
 ## Features
 - **Full Instruction Set:** Support for all 35 standard Chip-8 opcodes.
 - **Hardware Accelerated Graphics:** Rendering via SDL2 textures with automatic scaling to maintain aspect ratio and clarity.
@@ -33,7 +37,7 @@ The original 4x4 hex keypad of the Chip-8 has been mapped to the modern QWERTY l
 ## Project Structure
 - `src/` - Implementation files (`.cpp`)
 - `include/` - Header files (`.h`)
-- `roms/` - Sample ROMs for testing (e.g., Pong, Tetris, Maze)
+- `roms/` - Sample ROMs for testing (e.g., Pong, Tetris, Invaders)
 - `emulator.sln` - Visual Studio Solution file
 
 ## Build and Run
